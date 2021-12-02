@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: purple;
+}
+
+.nav-menu{
+    text-align: center;
+    padding: 3rem;
+}
+
+.menu-span {
+    text-decoration: underline;
+    line-height: 1.6;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.back {
+    margin-top: 1rem;
+}
+
+.menu-back{
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: purple;
+    border-radius: 25%;
+}
+
+.nav-hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2rem;
+}
+
+.hamburger{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: purple;
+    color: white;
+    border-color: transparent;
+    border-radius: 25%;
+    box-shadow: 5px 5px rgb(0 0 0 / 0.3);
+}
+
+.hamburger:hover{
+    transform: scale(1.2);
+}
